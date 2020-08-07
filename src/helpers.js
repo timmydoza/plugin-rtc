@@ -150,6 +150,7 @@ TWILIO_API_SECRET = the secret for the API Key`);
       TWILIO_API_KEY_SECRET: this.twilioClient.password,
       API_PASSCODE: pin,
       API_PASSCODE_EXPIRY: expiryTime,
+      ROOM_TYPE: this.flags['room-type'],
     },
     pkgJson: {},
     functionsEnv: 'dev',
